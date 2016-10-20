@@ -274,7 +274,7 @@
     "panecycle": {
         "json()": [
             "tab11",
-            "tab9"
+            "tab4"
         ]
     },
     "panels": {
@@ -322,15 +322,15 @@
     },
     "tabs": {
         "json()": {
-            "focus": "tab11",
+            "focus": "/public/urltest.rb",
             "meta": {
                 "accessList": [
+                    "tab4",
+                    "tab15",
                     "tab9",
                     "tab6",
-                    "tab4",
                     "tab0",
                     "tab17",
-                    "tab15",
                     "tab10"
                 ]
             },
@@ -402,7 +402,8 @@
                     "path": "/public/urltest.rb",
                     "className": [
                         "tab4",
-                        "changed"
+                        "changed",
+                        "focus"
                     ],
                     "document": {
                         "changed": true,
@@ -415,7 +416,7 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": false
+                    "active": true
                 },
                 {
                     "type": "tab",
@@ -455,7 +456,7 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": true
+                    "active": false
                 },
                 {
                     "type": "tab",
