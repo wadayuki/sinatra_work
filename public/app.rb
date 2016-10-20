@@ -11,7 +11,7 @@ get '/about' do
 end
 
 post '/confirm' do 
-    @email = parmas[:email]
-    @message = parmas[:message]
+    @email = params[:email]
+    @message = params[:message]
     erb :confirm
 end
