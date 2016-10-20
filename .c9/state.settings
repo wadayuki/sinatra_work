@@ -1,0 +1,514 @@
+{
+    "console": {
+        "@expanded": true,
+        "@height": 294,
+        "@maximized": "false",
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab1",
+                    "tab5",
+                    "tab18",
+                    "tab7",
+                    "tab22",
+                    "tab3",
+                    "tab21"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab1",
+                    "path": "",
+                    "className": [
+                        "tab1",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476763978670
+                        },
+                        "filter": true,
+                        "title": "bash - \"root@centos6:/opt/workspace\"",
+                        "tooltip": "bash - \"root@centos6:/opt/workspace\"",
+                        "terminal": {
+                            "id": "devel_559",
+                            "cwd": "",
+                            "width": 1168,
+                            "height": 268
+                        }
+                    },
+                    "editorType": "terminal",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab5",
+                    "path": "",
+                    "className": [
+                        "tab5",
+                        "running"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476836974941
+                        },
+                        "filter": true,
+                        "title": "public/urltest.rb - Running",
+                        "tooltip": "public/urltest.rb - Running",
+                        "output": {
+                            "id": "output465380",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Ruby",
+                                "command": "public/urltest.rb",
+                                "toolbar": true,
+                                "name": ""
+                            },
+                            "running": {
+                                "pid": 9281,
+                                "name": "output465380",
+                                "running": 2,
+                                "runner": [
+                                    {
+                                        "cmd": [
+                                            "ruby",
+                                            "$file",
+                                            "$args"
+                                        ],
+                                        "env": {},
+                                        "selector": "^.*\\.(ruby|rb)$",
+                                        "caption": "Ruby",
+                                        "$builtin": true
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab18",
+                    "path": "",
+                    "className": [
+                        "tab18"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476858723399
+                        },
+                        "filter": true,
+                        "title": "public/app.rb - Stopped",
+                        "tooltip": "public/app.rb - Stopped",
+                        "output": {
+                            "id": "output225336",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Ruby",
+                                "command": "public/app.rb",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab21",
+                    "path": "",
+                    "className": [
+                        "tab21"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "public/views/about.erb - Stopped",
+                        "tooltip": "public/views/about.erb - Stopped",
+                        "output": {
+                            "id": "output8309734",
+                            "width": 705,
+                            "height": 255,
+                            "scrollTop": -1,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "public/views/about.erb",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        },
+                        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                        "meta": {
+                            "timestamp": 1476860715653
+                        },
+                        "changed": false
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab22",
+                    "path": "",
+                    "className": [
+                        "tab22"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476860919502
+                        },
+                        "filter": true,
+                        "title": "public/views/index.erb - Stopped",
+                        "tooltip": "public/views/index.erb - Stopped",
+                        "output": {
+                            "id": "output2181136",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "public/views/index.erb",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab3",
+                    "path": "",
+                    "className": [
+                        "tab3"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476923529785
+                        },
+                        "filter": true,
+                        "title": "public/views/confirm.erb - Stopped",
+                        "tooltip": "public/views/confirm.erb - Stopped",
+                        "output": {
+                            "id": "output901372",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "public/views/confirm.erb",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "",
+                    "className": [
+                        "tab7"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476924887352
+                        },
+                        "filter": true,
+                        "title": "public/views/markdown_template_page.md - Stopped",
+                        "tooltip": "public/views/markdown_template_page.md - Stopped",
+                        "output": {
+                            "id": "output716827",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "public/views/markdown_template_page.md",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "experiments": {
+        "@@enabled": true,
+        "@autosave": 0,
+        "@flat-dark": 0,
+        "@git": 1,
+        "@go_completion": 0,
+        "@plugin-manager": 1,
+        "@plugins": 0,
+        "@sdk": 0,
+        "@test": 0
+    },
+    "ext": {
+        "counters": {
+            "@ace": 1,
+            "@acestatus": 1,
+            "@datagrid": 1,
+            "@divider": 5,
+            "@document": 18,
+            "@form": 5,
+            "@immediate": 1,
+            "@menu": 5,
+            "@menuitem": 13,
+            "@pane": 3,
+            "@postmessage": 1,
+            "@preferences": 1,
+            "@preview": 1,
+            "@session": 18,
+            "@tab": 11,
+            "@tree": 2,
+            "@undoManager": 18,
+            "@welcome": 1
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@scope": "selection",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "panecycle": {
+        "json()": [
+            "tab1",
+            "tab4"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "none",
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "scm": {
+            "@enabled": "true",
+            "@name": "scm"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@scrollpos": -10,
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/",
+                "/public",
+                "/public/views"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "tab1",
+            "meta": {
+                "accessList": [
+                    "tab4",
+                    "tab0",
+                    "tab15",
+                    "tab17",
+                    "tab6",
+                    "tab10",
+                    "tab9"
+                ]
+            },
+            "name": "pane0",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab15",
+                    "path": "/public/views/index.erb",
+                    "className": [
+                        "tab15"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476923945098
+                        },
+                        "filter": true,
+                        "title": "index.erb",
+                        "tooltip": "/public/views/index.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab17",
+                    "path": "/public/app.rb",
+                    "className": [
+                        "tab17"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476923181562
+                        },
+                        "filter": true,
+                        "title": "app.rb",
+                        "tooltip": "/public/app.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab0",
+                    "path": "/public/views/confirm.erb",
+                    "className": [
+                        "tab0"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476923529760
+                        },
+                        "filter": true,
+                        "title": "confirm.erb",
+                        "tooltip": "/public/views/confirm.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab4",
+                    "path": "/public/urltest.rb",
+                    "className": [
+                        "tab4"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476924887325
+                        },
+                        "filter": true,
+                        "title": "urltest.rb",
+                        "tooltip": "/public/urltest.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab6",
+                    "path": "/public/views/markdown_template_page.md",
+                    "className": [
+                        "tab6"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476924941798
+                        },
+                        "filter": true,
+                        "title": "markdown_template_page.md",
+                        "tooltip": "/public/views/markdown_template_page.md",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab9",
+                    "path": "/public/views/about.erb",
+                    "className": [
+                        "tab9"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476860502884
+                        },
+                        "filter": true,
+                        "title": "about.erb",
+                        "tooltip": "/public/views/about.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab10",
+                    "path": "/public/views/erb_template_page.erb",
+                    "className": [
+                        "tab10"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1476854088812
+                        },
+                        "filter": true,
+                        "title": "erb_template_page.erb",
+                        "tooltip": "/public/views/erb_template_page.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/public/views/markdown_template_page.md"
+        ]
+    }
+}
