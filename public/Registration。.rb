@@ -11,18 +11,19 @@ get '/top' do
     erb :top_page
 end
 post '/top/registration' do
-     session[:name] = params['name']
-   session[:place] = params['place']
-   session[:age] = params['age']
- 
-   
+    @name = params[:name]
+    @place = params[:place]
+    @age = params[:age]
+   session[:new_name] = @name
+   session[:place] = @place
+   session[:age] = @age
    
     erb :rg_page
 end
 
-get '/top/registration/completion' do
-    session[:user_name]
-    session[:user_place]
-    
-  　　erb :comp_page
+post '/top/registration/completion' do
+ session[:new_name]
+   session[:place]
+   session[:age] 
+   erb :comp_page
 end

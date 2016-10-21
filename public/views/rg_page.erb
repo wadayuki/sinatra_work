@@ -5,15 +5,15 @@
         <meta charset ="UTF-8">
         <h1>登録内容を確認します</h1>
         <br>
-        名前: session[:name] 
+        名前: <%=@name%>
         <br>
-        住所:
+        住所  <%=@place%>
         <br>
-        年齢:
+        年齢: <%=@age%>
         <body>
             <h2>内容はこれでよろしいですか？</h2>
             <br>
-            <input type="button" onclick="location.href='172.16.50.30:4567/top/registration/completion'"value="はい">
+            <input type="submit" value="登録ページへ">
             
         </body>
     </head>
