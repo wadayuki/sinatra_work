@@ -1,4 +1,7 @@
 {
+    "breakpoints": {
+        "json()": []
+    },
     "console": {
         "@expanded": true,
         "@height": 294,
@@ -6,184 +9,34 @@
         "json()": {
             "meta": {
                 "accessList": [
-                    "tab11",
-                    "tab22",
-                    "tab21",
-                    "tab18",
-                    "tab1",
-                    "tab7",
-                    "tab3"
+                    "tab16",
+                    "tab26"
                 ]
             },
-            "name": "pane1",
+            "name": "pane2",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab1",
+                    "name": "tab26",
                     "path": "",
                     "className": [
-                        "tab1"
+                        "tab26"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476763978670
+                            "timestamp": 1476930214608
                         },
                         "filter": true,
-                        "title": "ruby - \"root@centos6:/opt/workspace/public\"",
-                        "tooltip": "ruby - \"root@centos6:/opt/workspace/public\"",
-                        "terminal": {
-                            "id": "devel_559",
-                            "cwd": "",
-                            "width": 620,
-                            "height": 268
-                        }
-                    },
-                    "editorType": "terminal",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab18",
-                    "path": "",
-                    "className": [
-                        "tab18"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1476858723399
-                        },
-                        "filter": true,
-                        "title": "public/app.rb - Stopped",
-                        "tooltip": "public/app.rb - Stopped",
+                        "title": "public/Registration。.rb - Stopped",
+                        "tooltip": "public/Registration。.rb - Stopped",
                         "output": {
-                            "id": "output225336",
+                            "id": "output6889024",
                             "width": 0,
                             "height": 0,
                             "config": {
                                 "runner": "Ruby",
-                                "command": "public/app.rb",
-                                "toolbar": true,
-                                "name": ""
-                            }
-                        }
-                    },
-                    "editorType": "output",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab21",
-                    "path": "",
-                    "className": [
-                        "tab21"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1476860715653
-                        },
-                        "filter": true,
-                        "title": "public/views/about.erb - Idle",
-                        "tooltip": "public/views/about.erb - Idle",
-                        "output": {
-                            "id": "output8309734",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Shell command",
-                                "command": "public/views/about.erb",
-                                "toolbar": true,
-                                "name": ""
-                            }
-                        }
-                    },
-                    "editorType": "output",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab22",
-                    "path": "",
-                    "className": [
-                        "tab22"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1476860919502
-                        },
-                        "filter": true,
-                        "title": "public/views/index.erb - Stopped",
-                        "tooltip": "public/views/index.erb - Stopped",
-                        "output": {
-                            "id": "output2181136",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Shell command",
-                                "command": "public/views/index.erb",
-                                "toolbar": true,
-                                "name": ""
-                            }
-                        }
-                    },
-                    "editorType": "output",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab3",
-                    "path": "",
-                    "className": [
-                        "tab3"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1476923529785
-                        },
-                        "filter": true,
-                        "title": "public/views/confirm.erb - Stopped",
-                        "tooltip": "public/views/confirm.erb - Stopped",
-                        "output": {
-                            "id": "output901372",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Shell command",
-                                "command": "public/views/confirm.erb",
-                                "toolbar": true,
-                                "name": ""
-                            }
-                        }
-                    },
-                    "editorType": "output",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab7",
-                    "path": "",
-                    "className": [
-                        "tab7"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1476924887352
-                        },
-                        "filter": true,
-                        "title": "public/views/markdown_template_page.md - Stopped",
-                        "tooltip": "public/views/markdown_template_page.md - Stopped",
-                        "output": {
-                            "id": "output716827",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Shell command",
-                                "command": "public/views/markdown_template_page.md",
+                                "command": "public/Registration。.rb",
                                 "toolbar": true,
                                 "name": "",
                                 "env": {}
@@ -195,24 +48,24 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab11",
+                    "name": "tab16",
                     "path": "",
                     "className": [
-                        "tab11",
+                        "tab16",
                         "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476926944809
+                            "timestamp": 1477036396014
                         },
                         "filter": true,
                         "title": "bash - \"root@centos6:/opt/workspace\"",
                         "tooltip": "bash - \"root@centos6:/opt/workspace\"",
                         "terminal": {
-                            "id": "devel_127",
+                            "id": "devel_995",
                             "cwd": "",
-                            "width": 620,
+                            "width": 1083,
                             "height": 268
                         }
                     },
@@ -241,20 +94,20 @@
             "@ace": 1,
             "@acestatus": 1,
             "@datagrid": 1,
-            "@divider": 5,
-            "@document": 19,
+            "@divider": 6,
+            "@document": 26,
             "@form": 5,
             "@immediate": 1,
-            "@menu": 5,
-            "@menuitem": 13,
-            "@pane": 3,
+            "@menu": 7,
+            "@menuitem": 17,
+            "@pane": 4,
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 19,
-            "@tab": 12,
+            "@session": 26,
+            "@tab": 17,
             "@tree": 2,
-            "@undoManager": 19,
+            "@undoManager": 26,
             "@welcome": 1
         }
     },
@@ -273,8 +126,8 @@
     },
     "panecycle": {
         "json()": [
-            "tab11",
-            "tab4"
+            "tab16",
+            "tab6"
         ]
     },
     "panels": {
@@ -312,8 +165,8 @@
         "expanded": {
             "json()": [
                 "/",
-                "/public",
-                "/public/views"
+                "/public/views",
+                "/public"
             ]
         }
     },
@@ -322,35 +175,35 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/public/urltest.rb",
+            "focus": "tab16",
             "meta": {
                 "accessList": [
-                    "tab4",
-                    "tab15",
-                    "tab9",
                     "tab6",
+                    "tab3",
+                    "tab2",
                     "tab0",
-                    "tab17",
-                    "tab10"
+                    "tab14",
+                    "tab9",
+                    "tab8"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab15",
-                    "path": "/public/views/index.erb",
+                    "name": "tab0",
+                    "path": "/public/hash_check.rb",
                     "className": [
-                        "tab15"
+                        "tab0"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476923945098
+                            "timestamp": 1477023874378
                         },
                         "filter": true,
-                        "title": "index.erb",
-                        "tooltip": "/public/views/index.erb",
+                        "title": "hash_check.rb",
+                        "tooltip": "/public/hash_check.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -358,15 +211,15 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab17",
+                    "name": "tab2",
                     "path": "/public/app.rb",
                     "className": [
-                        "tab17"
+                        "tab2"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476923181562
+                            "timestamp": 1476929566590
                         },
                         "filter": true,
                         "title": "app.rb",
@@ -378,19 +231,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab0",
-                    "path": "/public/views/confirm.erb",
+                    "name": "tab3",
+                    "path": "/public/views/hash_test1.erb",
                     "className": [
-                        "tab0"
+                        "tab3"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476923529760
+                            "timestamp": 1477023874386
                         },
                         "filter": true,
-                        "title": "confirm.erb",
-                        "tooltip": "/public/views/confirm.erb",
+                        "title": "hash_test1.erb",
+                        "tooltip": "/public/views/hash_test1.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -398,21 +251,20 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab4",
-                    "path": "/public/urltest.rb",
+                    "name": "tab6",
+                    "path": "/public/Registration。.rb",
                     "className": [
-                        "tab4",
-                        "changed",
-                        "focus"
+                        "tab6",
+                        "changed"
                     ],
                     "document": {
                         "changed": true,
                         "meta": {
-                            "timestamp": 1476926221196
+                            "timestamp": 1477018464585
                         },
                         "filter": true,
-                        "title": "urltest.rb",
-                        "tooltip": "/public/urltest.rb",
+                        "title": "Registration。.rb",
+                        "tooltip": "/public/Registration。.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -420,19 +272,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab6",
-                    "path": "/public/views/markdown_template_page.markdown",
+                    "name": "tab8",
+                    "path": "/public/views/comp_page.erb",
                     "className": [
-                        "tab6"
+                        "tab8"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476924941798
+                            "timestamp": 1477010505379
                         },
                         "filter": true,
-                        "title": "markdown_template_page.markdown",
-                        "tooltip": "/public/views/markdown_template_page.markdown",
+                        "title": "comp_page.erb",
+                        "tooltip": "/public/views/comp_page.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -441,18 +293,18 @@
                 {
                     "type": "tab",
                     "name": "tab9",
-                    "path": "/public/views/about.erb",
+                    "path": "/public/views/rg_page.erb",
                     "className": [
                         "tab9"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476860502884
+                            "timestamp": 1477018464579
                         },
                         "filter": true,
-                        "title": "about.erb",
-                        "tooltip": "/public/views/about.erb",
+                        "title": "rg_page.erb",
+                        "tooltip": "/public/views/rg_page.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -460,19 +312,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab10",
-                    "path": "/public/views/erb_template_page.erb",
+                    "name": "tab14",
+                    "path": "/public/views/hash_test2.erb",
                     "className": [
-                        "tab10"
+                        "tab14"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476854088812
+                            "timestamp": 1477018507726
                         },
                         "filter": true,
-                        "title": "erb_template_page.erb",
-                        "tooltip": "/public/views/erb_template_page.erb",
+                        "title": "hash_test2.erb",
+                        "tooltip": "/public/views/hash_test2.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -486,7 +338,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/public/views/markdown_template_page.md"
+            "/public/views/hash_test2.erb"
         ]
     }
 }
