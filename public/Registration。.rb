@@ -11,12 +11,10 @@ get '/top' do
     erb :top_page
 end
 post '/top/registration' do
-    @myname = params[:name]
-    @myplace = params[:place]
-    @myage = params[:age]
-  session[:user_name] = @myname
-  session[:user_place] = @myplace
-  session[:user_age] = :@age
+     session[:name] = params['name']
+   session[:place] = params['place']
+   session[:age] = params['age']
+ 
    
    
     erb :rg_page

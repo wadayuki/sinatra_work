@@ -10,7 +10,8 @@
             "meta": {
                 "accessList": [
                     "tab16",
-                    "tab26"
+                    "tab26",
+                    "tab17"
                 ]
             },
             "name": "pane2",
@@ -65,12 +66,42 @@
                         "terminal": {
                             "id": "devel_995",
                             "cwd": "",
-                            "width": 1083,
+                            "width": 543,
                             "height": 268
                         }
                     },
                     "editorType": "terminal",
                     "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab17",
+                    "path": "",
+                    "className": [
+                        "tab17"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1477037984329
+                        },
+                        "filter": true,
+                        "title": "public/views/rg_page.erb - Stopped",
+                        "tooltip": "public/views/rg_page.erb - Stopped",
+                        "output": {
+                            "id": "output7690160",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "public/views/rg_page.erb",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -95,7 +126,7 @@
             "@acestatus": 1,
             "@datagrid": 1,
             "@divider": 6,
-            "@document": 26,
+            "@document": 27,
             "@form": 5,
             "@immediate": 1,
             "@menu": 7,
@@ -104,10 +135,10 @@
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 26,
-            "@tab": 17,
+            "@session": 27,
+            "@tab": 18,
             "@tree": 2,
-            "@undoManager": 26,
+            "@undoManager": 27,
             "@welcome": 1
         }
     },
@@ -182,9 +213,9 @@
                     "tab3",
                     "tab2",
                     "tab0",
-                    "tab14",
                     "tab9",
-                    "tab8"
+                    "tab8",
+                    "tab14"
                 ]
             },
             "name": "pane0",
@@ -260,7 +291,7 @@
                     "document": {
                         "changed": true,
                         "meta": {
-                            "timestamp": 1477018464585
+                            "timestamp": 1477037984296
                         },
                         "filter": true,
                         "title": "Registration。.rb",
@@ -300,7 +331,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1477018464579
+                            "timestamp": 1477037984303
                         },
                         "filter": true,
                         "title": "rg_page.erb",
