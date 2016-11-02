@@ -1,75 +1,52 @@
 {
+    "ace": {
+        "search": {
+            "@backwards": "false",
+            "@highlightmatches": "true",
+            "@matchcase": "false",
+            "@preservecase": "false",
+            "@regex": "false",
+            "@wholeword": "false",
+            "@wraparound": "true"
+        }
+    },
     "breakpoints": {
         "json()": []
     },
     "console": {
         "@expanded": true,
-        "@height": 294,
+        "@height": 476,
         "@maximized": false,
         "json()": {
             "meta": {
                 "accessList": [
-                    "tab16",
-                    "tab26",
-                    "tab2",
-                    "tab17",
-                    "tab0"
+                    "tab5",
+                    "tab3"
                 ]
             },
             "name": "pane2",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab26",
+                    "name": "tab5",
                     "path": "",
                     "className": [
-                        "tab26"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1476930214608
-                        },
-                        "filter": true,
-                        "title": "public/Registration。.rb - Stopped",
-                        "tooltip": "public/Registration。.rb - Stopped",
-                        "output": {
-                            "id": "output6889024",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Ruby",
-                                "command": "public/Registration。.rb",
-                                "toolbar": true,
-                                "name": "",
-                                "env": {}
-                            }
-                        }
-                    },
-                    "editorType": "output",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab16",
-                    "path": "",
-                    "className": [
-                        "tab16",
+                        "tab5",
                         "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1477036396014
+                            "timestamp": 1477619917275
                         },
                         "filter": true,
-                        "title": "bash - \"root@centos6:/opt/workspace\"",
-                        "tooltip": "bash - \"root@centos6:/opt/workspace\"",
+                        "title": "mysql - \"root@centos6:/opt/workspace\"",
+                        "tooltip": "mysql - \"root@centos6:/opt/workspace\"",
                         "terminal": {
-                            "id": "devel_995",
+                            "id": "devel_441",
                             "cwd": "",
-                            "width": 543,
-                            "height": 268
+                            "width": 783,
+                            "height": 450
                         }
                     },
                     "editorType": "terminal",
@@ -77,88 +54,47 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab17",
+                    "name": "tab3",
                     "path": "",
                     "className": [
-                        "tab17"
+                        "tab3",
+                        "running"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1477037984329
+                            "timestamp": 1477959252722
                         },
                         "filter": true,
-                        "title": "public/views/rg_page.erb - Stopped",
-                        "tooltip": "public/views/rg_page.erb - Stopped",
+                        "title": "public/sinatra_database.rb - Running",
+                        "tooltip": "public/sinatra_database.rb - Running",
                         "output": {
-                            "id": "output7690160",
+                            "id": "output25460",
                             "width": 0,
                             "height": 0,
                             "config": {
-                                "runner": "Shell command",
-                                "command": "public/views/rg_page.erb",
+                                "runner": "Ruby",
+                                "command": "public/sinatra_database.rb",
                                 "toolbar": true,
                                 "name": ""
-                            }
-                        }
-                    },
-                    "editorType": "output",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab0",
-                    "path": "",
-                    "className": [
-                        "tab0"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1477037854346
-                        },
-                        "filter": true,
-                        "title": "public/views/confirm.erb - Stopped",
-                        "tooltip": "public/views/confirm.erb - Stopped",
-                        "output": {
-                            "id": "output722576",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Shell command",
-                                "command": "public/views/confirm.erb",
-                                "toolbar": true,
-                                "name": ""
-                            }
-                        }
-                    },
-                    "editorType": "output",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab2",
-                    "path": "",
-                    "className": [
-                        "tab2"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1477037984395
-                        },
-                        "filter": true,
-                        "title": "public/views/comp_page.erb - Stopped",
-                        "tooltip": "public/views/comp_page.erb - Stopped",
-                        "output": {
-                            "id": "output526567",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Shell command",
-                                "command": "public/views/comp_page.erb",
-                                "toolbar": true,
-                                "name": ""
+                            },
+                            "running": {
+                                "pid": 16946,
+                                "name": "output25460",
+                                "running": 2,
+                                "runner": [
+                                    {
+                                        "cmd": [
+                                            "ruby",
+                                            "$file",
+                                            "$args"
+                                        ],
+                                        "env": {},
+                                        "selector": "^.*\\.(ruby|rb)$",
+                                        "caption": "Ruby",
+                                        "$builtin": true
+                                    }
+                                ]
                             }
                         }
                     },
@@ -187,20 +123,20 @@
             "@ace": 1,
             "@acestatus": 1,
             "@datagrid": 1,
-            "@divider": 5,
-            "@document": 12,
+            "@divider": 6,
+            "@document": 9,
             "@form": 5,
             "@immediate": 1,
-            "@menu": 5,
-            "@menuitem": 13,
+            "@menu": 7,
+            "@menuitem": 17,
             "@pane": 4,
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 12,
-            "@tab": 3,
+            "@session": 9,
+            "@tab": 2,
             "@tree": 2,
-            "@undoManager": 12,
+            "@undoManager": 9,
             "@welcome": 1
         }
     },
@@ -219,13 +155,13 @@
     },
     "panecycle": {
         "json()": [
-            "tab16",
-            "tab18"
+            "tab5",
+            "tab0"
         ]
     },
     "panels": {
         "@active-left": "tree",
-        "@active-right": "none",
+        "@active-right": "debugger",
         "@width-left": 285,
         "commands.panel": {
             "@enabled": "true",
@@ -257,44 +193,52 @@
         "@showfs": true,
         "expanded": {
             "json()": [
-                "/",
                 "/public/views",
-                "/public"
+                "/public",
+                "/"
             ]
         }
     },
     "recentfiles": {
         "json()": []
     },
+    "search-history": {
+        "search": {
+            "json()": [
+                "each"
+            ]
+        }
+    },
     "tabs": {
         "json()": {
-            "focus": "tab16",
+            "focus": "/public/sinatra_database.rb",
             "meta": {
                 "accessList": [
-                    "tab18",
-                    "tab20",
+                    "tab0",
+                    "tab2",
                     "tab1",
-                    "tab9"
+                    "tab12",
+                    "tab6"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab18",
-                    "path": "/public/Registration。.rb",
+                    "name": "tab0",
+                    "path": "/public/sinatra_database.rb",
                     "className": [
-                        "tab18",
-                        "changed"
+                        "tab0",
+                        "focus"
                     ],
                     "document": {
-                        "changed": true,
+                        "changed": false,
                         "meta": {
-                            "timestamp": 1477039430546
+                            "timestamp": 1478052353320
                         },
                         "filter": true,
-                        "title": "Registration。.rb",
-                        "tooltip": "/public/Registration。.rb",
+                        "title": "sinatra_database.rb",
+                        "tooltip": "/public/sinatra_database.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -302,19 +246,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab20",
-                    "path": "/public/views/top_page.erb",
+                    "name": "tab2",
+                    "path": "/public/views/entry_page.erb",
                     "className": [
-                        "tab20"
+                        "tab2"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1476952275428
+                            "timestamp": 1478053575572
                         },
                         "filter": true,
-                        "title": "top_page.erb",
-                        "tooltip": "/public/views/top_page.erb",
+                        "title": "entry_page.erb",
+                        "tooltip": "/public/views/entry_page.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -322,19 +266,39 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab9",
-                    "path": "/public/views/rg_page.erb",
+                    "name": "tab6",
+                    "path": "/public/views/confirmation.erb",
                     "className": [
-                        "tab9"
+                        "tab6"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1477038534442
+                            "timestamp": 1478052085461
                         },
                         "filter": true,
-                        "title": "rg_page.erb",
-                        "tooltip": "/public/views/rg_page.erb",
+                        "title": "confirmation.erb",
+                        "tooltip": "/public/views/confirmation.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab12",
+                    "path": "/public/views/delete_data.erb",
+                    "className": [
+                        "tab12"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1478052553361
+                        },
+                        "filter": true,
+                        "title": "delete_data.erb",
+                        "tooltip": "/public/views/delete_data.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -343,18 +307,18 @@
                 {
                     "type": "tab",
                     "name": "tab1",
-                    "path": "/public/views/comp_page.erb",
+                    "path": "/public/views/acceptance_data.erb",
                     "className": [
                         "tab1"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1477037995244
+                            "timestamp": 1478052640118
                         },
                         "filter": true,
-                        "title": "comp_page.erb",
-                        "tooltip": "/public/views/comp_page.erb",
+                        "title": "acceptance_data.erb",
+                        "tooltip": "/public/views/acceptance_data.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -368,7 +332,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/public/views/comp_page.erb"
+            "/public/views/acceptance_data.erb"
         ]
     }
 }

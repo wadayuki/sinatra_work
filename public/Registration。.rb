@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
 set :bind, '0.0.0.0'
+require 'mysql2'
 enable :sessions
 
 get '/'  do
@@ -14,16 +15,17 @@ post '/top/registration' do
     @name = params[:name]
     @place = params[:place]
     @age = params[:age]
-   session[:new_name] = @name
-   session[:place] = @place
-   session[:age] = @age
+session[:name] = @name
+session[:place] = @place
+session[:age] = @age
    
     erb :rg_page
 end
 
 post '/top/registration/completion' do
- session[:new_name]
-   session[:place]
-   session[:age] 
+session[:name]
+session[:place]
+session[:age]
+
    erb :comp_page
 end

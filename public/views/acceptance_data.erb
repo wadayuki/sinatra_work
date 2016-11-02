@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <center><h1>お客様データ</h1></center>
+        <title>データ参照ページ</title>
+        <body><center>
+            <table>
+            <table border="1" width="500" cellspacing="0" cellpadding="5" bordercolor="#333333">
+                    <tr>
+                    <th>名前</th>
+                    <th>年齢</th>
+                    <th>住所</th>
+                    <th>ID</th>
+                    
+                    </tr>
+                    <tr> 
+             <% @results.each do|a| %>
+              <% a.each do |val,name| %>
+              <td><%= "#{name}"%></td>
+        　　  <% end %>
+        　　  </tr>
+        　　　<% end %>
+        　　　</table>
+       </center> </body>
+       <a href="http://172.16.50.30:4567/database">データベース確認</a>
+    </head>
+</html>

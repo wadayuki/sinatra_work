@@ -2,10 +2,10 @@
     <head>
         <title>登録完了</title>
         <body>
-            ようこそ<%=@name%>さん
+            ようこそ<%=session[:name]%>さん
             <br>
-            あなたのお住まいは<%=@place%>で
-            年齢は<%=@age%>歳でお間違いないでしょうか？
+            あなたのお住まいは<%session[:place]%>で
+            年齢は<%=session[:age]%>歳でお間違いないでしょうか？
             
         </body>
     </head>
