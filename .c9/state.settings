@@ -15,13 +15,16 @@
     },
     "console": {
         "@expanded": true,
-        "@height": 476,
+        "@height": 454,
         "@maximized": false,
         "json()": {
             "meta": {
                 "accessList": [
                     "tab5",
-                    "tab3"
+                    "tab3",
+                    "tab7",
+                    "tab8",
+                    "tab12"
                 ]
             },
             "name": "pane2",
@@ -40,13 +43,13 @@
                             "timestamp": 1477619917275
                         },
                         "filter": true,
-                        "title": "mysql - \"root@centos6:/opt/workspace\"",
-                        "tooltip": "mysql - \"root@centos6:/opt/workspace\"",
+                        "title": "bash - \"root@centos6:/opt/workspace\"",
+                        "tooltip": "bash - \"root@centos6:/opt/workspace\"",
                         "terminal": {
                             "id": "devel_441",
                             "cwd": "",
                             "width": 783,
-                            "height": 450
+                            "height": 428
                         }
                     },
                     "editorType": "terminal",
@@ -57,8 +60,7 @@
                     "name": "tab3",
                     "path": "",
                     "className": [
-                        "tab3",
-                        "running"
+                        "tab3"
                     ],
                     "document": {
                         "changed": false,
@@ -66,8 +68,8 @@
                             "timestamp": 1477959252722
                         },
                         "filter": true,
-                        "title": "public/sinatra_database.rb - Running",
-                        "tooltip": "public/sinatra_database.rb - Running",
+                        "title": "public/sinatra_database.rb - Idle",
+                        "tooltip": "public/sinatra_database.rb - Idle",
                         "output": {
                             "id": "output25460",
                             "width": 0,
@@ -77,10 +79,68 @@
                                 "command": "public/sinatra_database.rb",
                                 "toolbar": true,
                                 "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "",
+                    "className": [
+                        "tab7"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1478062031209
+                        },
+                        "filter": true,
+                        "title": "public/views/chat_top.erb - Idle",
+                        "tooltip": "public/views/chat_top.erb - Idle",
+                        "output": {
+                            "id": "output610951",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "public/views/chat_top.erb",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab8",
+                    "path": "",
+                    "className": [
+                        "tab8",
+                        "running"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "public/chat_main.rb - Running",
+                        "tooltip": "public/chat_main.rb - Running",
+                        "output": {
+                            "id": "output699494",
+                            "width": 0,
+                            "height": 0,
+                            "scrollTop": 3075,
+                            "config": {
+                                "runner": "Ruby",
+                                "command": "public/chat_main.rb",
+                                "toolbar": true,
+                                "name": ""
                             },
                             "running": {
-                                "pid": 16946,
-                                "name": "output25460",
+                                "pid": 27491,
+                                "name": "output699494",
                                 "running": 2,
                                 "runner": [
                                     {
@@ -96,7 +156,44 @@
                                     }
                                 ]
                             }
-                        }
+                        },
+                        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                        "meta": {
+                            "timestamp": 1478062120476
+                        },
+                        "changed": false
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab12",
+                    "path": "",
+                    "className": [
+                        "tab12"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "public/views/chat_log.erb - Stopped",
+                        "tooltip": "public/views/chat_log.erb - Stopped",
+                        "output": {
+                            "id": "output520302",
+                            "width": 0,
+                            "height": 0,
+                            "scrollTop": -1,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "public/views/chat_log.erb",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        },
+                        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                        "meta": {
+                            "timestamp": 1478493388008
+                        },
+                        "changed": false
                     },
                     "editorType": "output",
                     "active": false
@@ -124,7 +221,7 @@
             "@acestatus": 1,
             "@datagrid": 1,
             "@divider": 6,
-            "@document": 9,
+            "@document": 13,
             "@form": 5,
             "@immediate": 1,
             "@menu": 7,
@@ -133,10 +230,10 @@
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 9,
-            "@tab": 2,
+            "@session": 11,
+            "@tab": 5,
             "@tree": 2,
-            "@undoManager": 9,
+            "@undoManager": 13,
             "@welcome": 1
         }
     },
@@ -156,7 +253,7 @@
     "panecycle": {
         "json()": [
             "tab5",
-            "tab0"
+            "tab4"
         ]
     },
     "panels": {
@@ -189,13 +286,13 @@
         }
     },
     "projecttree": {
-        "@scrollpos": -10,
+        "@scrollpos": 15,
         "@showfs": true,
         "expanded": {
             "json()": [
-                "/public/views",
+                "/",
                 "/public",
-                "/"
+                "/public/views"
             ]
         }
     },
@@ -211,14 +308,17 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/public/sinatra_database.rb",
+            "focus": "tab5",
             "meta": {
                 "accessList": [
+                    "tab4",
                     "tab0",
                     "tab2",
+                    "tab6",
+                    "tab18",
+                    "tab9",
                     "tab1",
-                    "tab12",
-                    "tab6"
+                    "tab10"
                 ]
             },
             "name": "pane0",
@@ -226,39 +326,39 @@
                 {
                     "type": "tab",
                     "name": "tab0",
-                    "path": "/public/sinatra_database.rb",
+                    "path": "/public/chat_main.rb",
                     "className": [
-                        "tab0",
-                        "focus"
+                        "tab0"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1478052353320
+                            "timestamp": 1478505367320
                         },
                         "filter": true,
-                        "title": "sinatra_database.rb",
-                        "tooltip": "/public/sinatra_database.rb",
+                        "title": "chat_main.rb",
+                        "tooltip": "/public/chat_main.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": true
+                    "active": false
                 },
                 {
                     "type": "tab",
                     "name": "tab2",
-                    "path": "/public/views/entry_page.erb",
+                    "path": "/public/views/chat_top.erb",
                     "className": [
-                        "tab2"
+                        "tab2",
+                        "changed"
                     ],
                     "document": {
-                        "changed": false,
+                        "changed": true,
                         "meta": {
-                            "timestamp": 1478053575572
+                            "timestamp": 1478508090491
                         },
                         "filter": true,
-                        "title": "entry_page.erb",
-                        "tooltip": "/public/views/entry_page.erb",
+                        "title": "chat_top.erb",
+                        "tooltip": "/public/views/chat_top.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -267,18 +367,18 @@
                 {
                     "type": "tab",
                     "name": "tab6",
-                    "path": "/public/views/confirmation.erb",
+                    "path": "/public/views/chat_log.erb",
                     "className": [
                         "tab6"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1478052085461
+                            "timestamp": 1478505449343
                         },
                         "filter": true,
-                        "title": "confirmation.erb",
-                        "tooltip": "/public/views/confirmation.erb",
+                        "title": "chat_log.erb",
+                        "tooltip": "/public/views/chat_log.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -286,19 +386,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab12",
-                    "path": "/public/views/delete_data.erb",
+                    "name": "tab18",
+                    "path": "/public/views/delete_chat.erb",
                     "className": [
-                        "tab12"
+                        "tab18"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1478052553361
+                            "timestamp": 1478508076864
                         },
                         "filter": true,
-                        "title": "delete_data.erb",
-                        "tooltip": "/public/views/delete_data.erb",
+                        "title": "delete_chat.erb",
+                        "tooltip": "/public/views/delete_chat.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -307,22 +407,133 @@
                 {
                     "type": "tab",
                     "name": "tab1",
-                    "path": "/public/views/acceptance_data.erb",
+                    "path": "/public/Registration。.rb",
                     "className": [
                         "tab1"
                     ],
                     "document": {
+                        "filter": true,
+                        "title": "Registration。.rb",
+                        "tooltip": "/public/Registration。.rb",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 289,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 25,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 25,
+                                    "column": 14
+                                },
+                                "isBackwards": true
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 13,
+                                "state": "start",
+                                "mode": "ace/mode/ruby"
+                            }
+                        },
+                        "hash": "c44c23996852e79684cb1ba59dc0c1f8ab41494e",
+                        "meta": {
+                            "timestamp": 1477617155892
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab9",
+                    "path": "/public/views/comp_page.erb",
+                    "className": [
+                        "tab9"
+                    ],
+                    "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1478052640118
+                            "timestamp": 1477270589810
                         },
                         "filter": true,
-                        "title": "acceptance_data.erb",
-                        "tooltip": "/public/views/acceptance_data.erb",
+                        "title": "comp_page.erb",
+                        "tooltip": "/public/views/comp_page.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
                     "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab10",
+                    "path": "/public/views/return_page.erb",
+                    "className": [
+                        "tab10"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "return_page.erb",
+                        "tooltip": "/public/views/return_page.erb",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 9,
+                                    "column": 7
+                                },
+                                "end": {
+                                    "row": 9,
+                                    "column": 7
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 19,
+                                "mode": "ace/mode/html_ruby"
+                            }
+                        },
+                        "hash": "97431c3f97b6cd60399dce14fb38a2de88c510aa",
+                        "meta": {
+                            "timestamp": 1478482331763
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab4",
+                    "path": "/public/views/transmission.erb",
+                    "className": [
+                        "tab4"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1478508108002
+                        },
+                        "filter": true,
+                        "title": "transmission.erb",
+                        "tooltip": "/public/views/transmission.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
                 }
             ],
             "skin": "editor_tab",
@@ -332,7 +543,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/public/views/acceptance_data.erb"
+            "/public/views/transmission.erb"
         ]
     }
 }

@@ -1,0 +1,1 @@
+location.href = "http://172.16.50.30:4567/top_page" + location.pathname + location.search + location.hash;

@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>チャットログ</title>
+    </head>
+    <body>
+   <% @results.each do|num| %>
+   <% @delete_data = num["id"] %>
+               <br>
+              <% num.each do |val,name| %>
+              <%= "#{name}"%>
+        　　  <% end %>
+        　　  <form action="/delete" method="POST">
+        <input type="hidden" name="id" value="<%=@delete_data%>">
+       <div align="right"><input type="submit" value='削除'></div></form>
+        -----------------------------------------------------------------------------
+        　　  <% end %>
+        　　  
+        　　  <% if  @search_number.to_i >= @initial_value.to_i %>
+            　    <input type="button" onclick="location.href='http://172.16.50.30:4567/log?init=<%= @initial_value %>&src=<%= @search_number.to_i - @initial_value.to_i %>'"value="戻る">
+            　<% end %>
+            　<% if @search_number.to_i <= @record_data.to_i %>
+             <input type="button" onclick="location.href='http://172.16.50.30:4567/log?init=<%= @initial_value %>&src=<%= @initial_value.to_i + @search_number.to_i %>'"value="進む">
+             <% end %>
+    </body>
+</html>
